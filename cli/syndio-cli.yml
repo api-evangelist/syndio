@@ -1,0 +1,13 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/syndio/syndioctl-installer
+name: syndioctl
+official: true
+summary: First-party command-line tool for Syndio, distributed through the Syndio GitHub organization via an install script. The public installer repository documents the install flow only; the command surface is not published publicly (the product is an enterprise SaaS).
+install:
+- method: curl
+  command: 'curl -L https://raw.githubusercontent.com/syndio/syndioctl-installer/main/syndioctl-installer -o installer && chmod +x installer && ./installer && rm installer'
+  notes: After install, add ~/.syndio/syndioctl/bin/ to PATH.
+binary: syndioctl
+commands: []
+notes: Command/resource surface not publicly documented; only the installer and version tags are public.

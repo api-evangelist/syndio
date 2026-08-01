@@ -1,0 +1,11 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/syndio/syndioctl-installer
+packages:
+- language: shell
+  registry: github
+  name: syndioctl
+  url: https://github.com/syndio/syndioctl-installer
+  install: 'curl -L https://raw.githubusercontent.com/syndio/syndioctl-installer/main/syndioctl-installer -o installer && chmod +x installer && ./installer && rm installer'
+  official: true
+  notes: First-party command-line installer for the syndioctl binary (installed to ~/.syndio/syndioctl/bin/). Distributed via the Syndio GitHub organization; no public package-registry (npm/PyPI/etc.) client library was found.

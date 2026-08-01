@@ -1,9 +1,33 @@
 aid: syndio
 name: Syndio
-description: 'Syndio is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Syndio is an enterprise workplace-equity and compensation-governance software
+  company. Its AI-assisted platform helps large organizations make defensible,
+  compliant pay decisions at scale, spanning offers, promotions, merit cycles,
+  and pay-equity/pay-transparency compliance (including EU Pay Transparency
+  Directive requirements). The platform is organized into Essentials (foundations
+  for aligned, compliant pay decisions), Decisions (real-time guidance during pay
+  decision-making), and Predict (forward-looking workforce intelligence), all
+  powered by the domain-specific Syndi AI. Syndio reports governing more than $1T
+  in pay decisions for 350+ global enterprises. It is delivered as a closed
+  enterprise SaaS accessed via the app with OAuth 2 / SSO; there is no public
+  self-serve developer API, developer portal, or OpenAPI definition. First-party
+  developer-facing surfaces are limited to the syndioctl command-line tool and a
+  public GitHub organization. Surfaced as a portfolio company of Bessemer Venture
+  Partners.
 url: https://raw.githubusercontent.com/api-evangelist/syndio/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://synd.io/wp-content/uploads/2026/05/Syndio-Featured-Homepage.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Pay Equity
+- Compensation
+- Workplace Equity
+- HR Technology
+- Compliance
+- Analytics
+- Enterprise Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,26 @@ maintainers:
 common:
 - type: Website
   url: https://synd.io/
+- type: Blog
+  url: https://synd.io/blog/
+- type: Support
+  url: https://synd.io/contact/
+- type: PrivacyPolicy
+  url: https://synd.io/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/syndio
+- type: TrustCenter
+  url: security/syndio-trust-center.yml
+- type: Compliance
+  url: https://trust.synd.io/
+- type: DomainSecurity
+  url: security/syndio-domain-security.yml
+- type: Packages
+  url: packages/syndio-packages.yml
+- type: CLI
+  url: cli/syndio-cli.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
